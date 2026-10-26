@@ -1,0 +1,17 @@
+{
+  "name": "fintech-weekly-digest-cron",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/digest_service.ts",
+    "test": "tsx --test src/digest_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
